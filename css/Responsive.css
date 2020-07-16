@@ -1,0 +1,160 @@
+
+/* Responsive Desing */
+
+@media only screen and (max-width: 1125px) { 
+  
+    .Contact img{
+        display: none;
+    }
+    .Contact a{
+        font-size: 250%;
+    }
+    
+    .AltContact{
+        display: inline-block;
+    }
+
+    .right{     
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5%;
+
+        float: none;
+    }
+        .right a{
+            font-size: 240%;
+        }
+
+        .right p{
+            font-size: 230%;
+        }    
+
+        .right h3{
+            font-size: 250%;
+        }
+
+        .right .blogImg{     
+            width: 80%;
+        }
+
+        blockquote {
+            font-size: 240%;
+        }
+
+        .right .PortImg{
+            width: 100%;
+        }
+
+        .right .PortImg:hover{
+            border: none;
+            width: 100%;
+            border-radius: 0;
+        }
+
+        .right .aboutImg{
+            width: 85%;
+        }
+
+        #LeftIcon,#RightIcon{
+            margin-top: 0;
+            width: 12%;
+            clear: none;
+        }
+
+        #LeftIcon:hover,#RightIcon:hover{
+            transition-duration: 0s;
+            border: solid 0px black;
+            width: 12%;
+            border-radius: 0;
+        }
+
+        .Cont{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        .back{
+            margin-top: 1.5%;
+            margin-left: -2%;
+            clear: both;
+            display:block;
+            width: 8%;
+            float: left;
+        }
+
+        .right .PortDiv h3{
+            font-size: 270%;
+        }
+
+        #PortaNum{
+            font-size: 300%;
+            clear: none;
+            margin-bottom: -5%;
+        }
+
+        input[type=text],input[type=email],textarea{
+            margin-bottom: 4%;
+            width: 70%;
+            font-size: 230%;
+          }
+
+          textarea{
+            width: 100%;
+          }
+
+        
+
+          
+
+
+.left{
+    width: 90%;
+    margin: 0 auto;
+
+    float: none;
+    display: block;
+    position:static ;
+}
+
+    .left h1{
+        font-size: 360%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .left img{
+        border-radius: 0 0 0 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .left nav{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .left a{
+        display: inline-block;
+        font-size: 275%;
+        width: 30%;
+        margin-left: 1.6%;
+        
+    }
+
+    
+}
+
+@media only screen and (max-width: 780px) { 
+    .left a{
+        font-size: 200%;   
+    }
+}
+
+@media only screen and (max-width: 510px) { 
+    .left a{
+        font-size: 150%;   
+    }
+}
