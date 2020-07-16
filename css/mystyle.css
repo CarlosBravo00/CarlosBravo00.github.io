@@ -2,7 +2,6 @@ h1{
     text-align: center;
     color: white;
     font-size: 200%;
-    border: solid 1px #5E747F;
     padding: 1%;
 }
 
@@ -11,6 +10,7 @@ h2{
 }
 header{
     background: #5E747F;
+    background: linear-gradient(rgba(94,116,127,1) 50%, rgba(155,175,185,1) 100%);
 }
 
 header a{
@@ -18,7 +18,7 @@ header a{
 }
 
 header a:hover{
-    color: #C2EFEB;
+    color: #cccccc;
 }
 
 .carousel{
@@ -43,9 +43,14 @@ header a:hover{
     float: right;
 }
 
-
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 main{
     margin: 1%;
+    flex: 1;
 }
 
 .me{
@@ -65,12 +70,69 @@ main{
 }
 
 
+footer{
+    display: block;
+    background: #5E747F;
+    background: linear-gradient(rgba(94,116,127,1) 50%, rgba(155,175,185,1) 100%);
+    text-align: center;
+}
 
-@media only screen and (min-width: 992px) { 
+.container{
+    display: none;
+}
+
+.card{
+    display: block;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border: 1px solid #445566;
+
+}
+
+  
+
+@media only screen and (min-width: 768px) { 
+
+    .card{
+        width: 32%;
+        clear: none;
+        float: left;
+        margin-left: 1%;
+
+    }    
 
     .me{
         width: 30%;
+        margin-bottom: 3%;
     }
+
+    .container{
+        display: block;
+        float: left;
+        clear: none;
+        width: 100%;
+        margin-left: 9%;
+    }
+    
+
+    .carousel{
+        width: 50%;
+    }
+
+    .workExp{
+        width: 49%;
+    }
+
+    .PerProjects{
+        width: 100%;
+    }
+    .AboutTxt{
+        width: 67%;
+    }
+}
+
+@media only screen and (min-width: 1000px) { 
 
     .carousel{
         width: 40%;
@@ -84,4 +146,6 @@ main{
         width: 67%;
     }
 }
+
+
   
