@@ -2,20 +2,20 @@ h1{
     text-align: center;
     color: white;
     font-size: 200%;
-    border: solid 1px black;
+    border: solid 1px #5E747F;
     padding: 1%;
 }
 
 header{
-    background: black;
+    background: #5E747F;
 }
 
 header a{
-    color: white;
+    color: white;   
 }
 
 header a:hover{
-    color: #c4ade9;
+    color: #C2EFEB;
 }
 
 .carousel{
@@ -25,7 +25,8 @@ header a:hover{
     float: right;
     width: 50%;
     padding: 0;
-    border: 3px black solid;
+    border: 7px #550C18 solid;
+    padding: 1%;
 }
 
 @media only screen and (max-width: 1125px) { 
