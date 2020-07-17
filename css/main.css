@@ -25,6 +25,8 @@ footer{
     margin: 3%;
     text-decoration: none;
     font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 115%;
 }
 
 .Contact img{
