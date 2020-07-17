@@ -1,3 +1,6 @@
+*{
+    box-sizing: initial;
+}
 body{
     background-color: #5E747F;
     display: flex;
