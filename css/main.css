@@ -1,6 +1,7 @@
 *{
     box-sizing: initial;
 }
+
 body{
     background-color: #5E747F;
     display: flex;
@@ -22,11 +23,16 @@ footer{
 }
 
 .Contact a{
+    color: #004a99;
     margin: 3%;
     text-decoration: none;
     font-family: 'Roboto Condensed';
     font-weight: bold;
     font-size: 115%;
+}
+
+.Contact a:hover{
+    color: #002b58;
 }
 
 .Contact img{
@@ -44,7 +50,6 @@ footer{
         background-color: #ffffff;
         border: solid 5px #c0c8c7;
         border-radius: 8px;
-        text-align: right;
     }
         .right h2{
             font-size: 280%;
@@ -59,9 +64,8 @@ footer{
         }
 
         .right h3{
-            font-size: 150%;
-
-            text-align: left;
+            font-size: 180%;
+            text-align: center;
             font-family: 'Roboto Condensed';
         }
 
@@ -73,7 +77,8 @@ footer{
         }
 
         .right a{
-            font-size: 130%;
+            float: right;
+            font-size: 100%;
         }
 
         .right .date{
@@ -84,6 +89,16 @@ footer{
 
         .right hr{
             border-top: 1px dashed #7e8e8c;
+        }
+
+
+        .right li{
+            text-align: left;
+        }
+
+        .right .center{
+            text-align: center;
+            margin: 2em;
         }
 
 

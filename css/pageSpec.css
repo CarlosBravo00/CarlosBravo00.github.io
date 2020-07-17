@@ -108,6 +108,27 @@
     margin-bottom: -0.5%;
 }
 
+.row {
+    display: flex;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%; 
+  }
+
+.textblock{
+    flex: 1;
+    box-sizing: border-box;
+    border: 2px solid #5E747F;
+    border-radius: 6px;
+    padding: 1%;
+    margin-left: 1%; 
+}
+
+.textblock a{
+    background-color:#004a99 ;
+}
+
+
 /* Contact */
  textarea{
     width: 100%;

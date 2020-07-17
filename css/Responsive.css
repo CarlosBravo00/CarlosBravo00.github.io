@@ -25,7 +25,7 @@
         float: none;
     }
         .right a{
-            font-size: 240%;
+            font-size: 200%;
         }
 
         .right p{
@@ -33,7 +33,13 @@
         }    
 
         .right h3{
-            font-size: 250%;
+            font-size: 250%;       
+            margin-bottom: 4%;
+        }
+
+        .right  h4{
+            font-size: 220%;
+            margin-bottom: 1%;
         }
 
         .right .blogImg{     
@@ -102,10 +108,20 @@
             font-size: 230%;
           }
 
-          textarea{
+        textarea{
             width: 100%;
           }
 
+          .row {
+            margin-bottom: 0px; 
+            margin-top: -2.5%;
+          }
+        
+        .textblock{
+            flex: unset;
+            margin-left: 0px; 
+            margin-bottom: 2%;
+        }
         
 
           
