@@ -10,23 +10,15 @@ body{
 
 main{
     flex: 1;
-    margin:3% 0px 3% 3%;
+    margin:2%;
 }
 
 footer{
-    width: 100%;
     padding: 1%;
-
-    margin-bottom: 0%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
 
     display: block;
     background: white;
     text-align: center;
-    border-radius: 3px;
-    border: solid 5px #c0c8c7;
 }
 
 .Contact a{
