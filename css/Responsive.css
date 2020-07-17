@@ -129,6 +129,7 @@
           }
         
         .textblock{
+            border: 0;
             flex: unset;
             margin-left: 0px; 
             margin-bottom: 2%;
