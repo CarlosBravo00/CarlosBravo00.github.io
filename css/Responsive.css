@@ -108,6 +108,17 @@
             font-size: 230%;
           }
 
+          input[type=email]{
+              margin-bottom: 2%;
+          }
+
+          input[type=submit]{
+            line-height: 4rem;
+            width: 25%;
+            margin: 0px;
+            font-size: 200%; 
+         }
+
         textarea{
             width: 100%;
           }

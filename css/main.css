@@ -71,13 +71,11 @@ footer{
 
         .right p{
             font-size: 115%;
-
             text-align: left;  
             font-family: 'Roboto Condensed';
         }
 
         .right a{
-            float: right;
             font-size: 100%;
         }
 

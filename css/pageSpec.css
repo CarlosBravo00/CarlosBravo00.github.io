@@ -126,6 +126,7 @@
 
 .textblock a{
     background-color:#004a99 ;
+    float: right;
 }
 
 
@@ -159,6 +160,7 @@
   }
 
   input[type=submit]{
+      float: right;
     font-family: 'Roboto Condensed';
       line-height: 2rem;
       width: 15%;
