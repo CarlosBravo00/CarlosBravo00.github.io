@@ -7,11 +7,18 @@ body{
 
 main{
     flex: 1;
-    margin:3% 3% 0 3%;
+    margin:3% 0px 3% 3%;
 }
 
 footer{
-    margin:2% 0px 0px 0px;
+    width: 100%;
+    padding: 1%;
+
+    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+
     display: block;
     background: white;
     text-align: center;
@@ -20,31 +27,16 @@ footer{
 }
 
 .Contact a{
-    margin: 1%;
+    margin: 3%;
     text-decoration: none;
+    font-family: 'Roboto Condensed';
 }
 
 .Contact img{
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 1%;
 }
-
-.AltContact{
-    margin: auto 0;
-    float: left;
-    float:none;
-    display: none;
-}
-
-.AltContact img{
-    float: left;
-    width: 10%;
-    padding-right: 3%;
-}
-.AltContact a{
-    text-decoration: none;
-}
-
 
     .right{     
         width: 72%;

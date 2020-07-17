@@ -150,5 +150,21 @@ fieldset{
     margin-bottom: 1%;
 }
 
+.AltContact{
+    margin: auto 0;
+    float: left;
+    float:none;
+    display: none;
+}
+
+.AltContact img{
+    margin-top: 3%;
+    float: left;
+    width: 13%;
+    padding-left: 3%;
+}
+.AltContact a{
+    text-decoration: none;
+}
   
   
